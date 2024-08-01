@@ -1,0 +1,478 @@
+.container1 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/зелень.jpg);
+    background-size: cover;
+    margin-top: 5.1em;
+    padding-top: 6em;
+    padding-bottom: 6em;
+    background-position:bottom;
+}
+
+/* https://images.unsplash.com/photo-1563996372-cf2c61cdd8b2?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fCVEMCVCNyVEMCVCMCVEMCVCMyVEMCVCRSVEMSU4MCVEMCVCRSVEMCVCNHxlbnwwfHx8fDE3MTU5NDYxMzh8MA&ixlib=rb-4.0.3&w=1500 */
+.gray{
+    background-color: var(--dl-color-gray-700);
+    opacity: 0.5;
+}
+.landing-page-button {
+    width: 20%;
+    height: var(--dl-size-size-tripleunit);
+    border-radius: 4px;
+    transition: transform 0.3s ease, fill 0.3s ease;
+    border-width: 0px;
+    box-shadow: 3px 3px 5px rgb(114, 114, 114);
+}
+.select {
+    width: 17%;
+    height: var(--dl-size-size-tripleunit);
+    margin-right: 10px; 
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Noto Sans';
+    border-radius: 4px;
+    background-color: #ffffff;
+    box-shadow: 3px 3px 5px rgb(114, 114, 114);
+    font-weight: 600;
+    border: 0px;
+}
+.text24{
+    color: white;
+}
+.text25{
+    color: white;
+    font-weight: 500;
+}
+
+.row1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+/* для правого меню */
+.main-component {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 3em;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #f5f4f4;
+  }
+  .container02 {
+    width: 30%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container03 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    flex-direction: column;
+    background-color: var(--dl-color-gray-white);
+  }
+  .container04 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .all-button {
+    width: 95%;
+    height: var(--dl-size-size-tripleunit);
+    margin: var(--dl-space-space-halfunit);
+    padding: 0px;
+    font-size: 1.1em;
+    align-self: center;
+    font-style: normal;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    border-color: var(--dl-color-gray-900);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: transparent;
+  }
+  .icon13 {
+    fill: #707cc4;
+    width: 24px;
+    height: 24px;
+    margin-right: var(--dl-space-space-unit);
+  }
+  .text11 {
+    font-size: 0.9em;
+    font-style: normal;
+    font-weight: 400;
+  }
+  .container05 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    align-items: flex-start;
+    background-color: #f5f4f4;
+  }
+  .options {
+    flex: 0 0 auto;
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-bottom: 0px;
+    justify-content: space-between;
+  }
+  .one-option {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .text14 {
+    fill: var(--dl-color-gray-700);
+    color: var(--dl-color-gray-700);
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .container-for-take {
+    gap: 0;
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--dl-space-space-halfunit);
+    justify-content: flex-start;
+  }
+  .all-checkbox {
+    margin-right: var(--dl-space-space-unit);
+    z-index: -1;
+    opacity: 0;
+    position: absolute
+  }
+  
+  .all-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .all-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+
+  .all-checkbox:checked+label::before {
+    border-color: #707cc4;
+    background-color: #707cc4;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+  }
+
+  /* стили при наведении курсора на checkbox */
+.all-checkbox:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активного состояния чекбокса (при нажатии на него) */
+.all-checkbox:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для чекбокса, находящегося в фокусе */
+.all-checkbox:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для чекбокса, находящегося в фокусе и не находящегося в состоянии checked */
+.all-checkbox:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для чекбокса, находящегося в состоянии disabled */
+.all-checkbox:disabled+label::before {
+  background-color: #e9ecef;
+} 
+
+
+
+/* для элемента input c type="radio" */
+.all-radiobutton {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+/* для элемента label связанного с .custom-radio */
+.all-radiobutton+label {
+  display: inline-flex;
+  align-items: center;
+  user-select: none;
+}
+/* создание в label псевдоэлемента  before со следующими стилями */
+.all-radiobutton+label::before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+  flex-grow: 0;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  margin-right: 0.5em;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+/* стили при наведении курсора на радио */
+.all-radiobutton:not(:disabled):not(:checked)+label:hover::before {
+  border-color: #b3d7ff;
+}
+/* стили для активной радиокнопки (при нажатии на неё) */
+.all-radiobutton:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+/* стили для радиокнопки, находящейся в фокусе */
+.all-radiobutton:focus+label::before {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+/* стили для радиокнопки, находящейся в фокусе и не находящейся в состоянии checked */
+.all-radiobutton:focus:not(:checked)+label::before {
+  border-color: #80bdff;
+}
+/* стили для радиокнопки, находящейся в состоянии checked */
+.all-radiobutton:checked+label::before {
+  border-color: #707cc4;
+  background-color: #707cc4;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e");
+}
+/* стили для радиокнопки, находящейся в состоянии disabled */
+.all-radiobutton:disabled+label::before {
+  background-color: #e9ecef;
+}
+
+
+  .delimetr {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 1px;
+    display: flex;
+    align-self: center;
+    margin-top: var(--dl-space-space-unit);
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-700);
+  }
+ 
+  .all-radiobutton {
+    margin-right: var(--dl-space-space-unit);
+  }
+  
+  .all-container34 {
+    flex: 0 0 auto;
+    width: 90%;
+    height: 1px;
+    display: flex;
+    align-self: center;
+    align-items: flex-start;
+    margin-top: var(--dl-space-space-unit);
+    background-color: var(--dl-color-gray-900);
+  }
+  .all-button1 {
+    width: 90%;
+    height: var(--dl-size-size-tripleunit);
+    margin: var(--dl-space-space-halfunit);
+    padding: 0px;
+    font-size: 1.1em;
+    align-self: center;
+    font-style: normal;
+    font-family: "Noto Sans";
+    font-weight: 500;
+    border-color: var(--dl-color-gray-900);
+    border-width: 1px;
+    border-radius: var(--dl-radius-radius-buttonradius);
+    background-color: var(--dl-color-gray-900);
+  }
+  .all-text42 {
+    font-size: 1em;
+  }
+
+
+  /* Для карточек */
+  .cards {
+    flex: 0 0 auto;
+    width: 70%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: var(--dl-space-space-doubleunit);
+  }
+  .all-container35 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .all-textinput {
+    width: 50%;
+    height: var(--dl-size-size-tripleunit);
+    font-family: "Open Sans";
+    border-color: var(--dl-color-gray-900);
+    border-width: 0.5px;
+    border-radius: var(--dl-radius-radius-radius8);
+  }
+  .all-button2 {
+    fill: var(--dl-color-gray-white);
+    color: var(--dl-color-gray-white);
+    display: none;
+    font-size: 14px;
+    font-family: "Noto Sans";
+    font-weight: 600;
+    padding-top: var(--dl-space-space-halfunit);
+    border-color: var(--dl-color-theme-neutral-dark);
+    border-width: none;
+    padding-left: var(--dl-space-space-doubleunit);
+    border-radius: 50px;
+    padding-right: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    text-transform: none;
+    text-decoration: none;
+    background-color: var(--dl-color-primary-blue);
+  }
+
+  @media(max-width: 991px) {
+    .all-button2 {
+      width: 144px;
+      height: 48px;
+    }
+  }
+  @media(max-width: 767px) {
+    .all-right-side {
+      display: none;
+    }
+
+    .container02 {
+      left: 0px;
+      right: 0px;
+      width: 60%;
+      margin: auto;
+      display: none;
+      position: absolute;
+    }
+    .cards {
+      width: 100%;
+    }
+    .all-container35 {
+      padding-left: 0;
+    }
+    .all-button2 {
+      top: 799px;
+      left: 296px;
+      width: 150px;
+      height: 37px;
+      display: block;
+      z-index: 9000;
+      position: fixed;
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 50em;
+      padding-bottom: 4px;
+    }
+    .all-menu {
+      flex-direction: column;
+    }
+
+    .all-container36 {
+      margin-left: 0px;
+    }
+  }
+  @media(max-width: 479px) {
+    .all-main-component {
+      padding: var(--dl-space-space-doubleunit);
+    }
+    .all-button2 {
+      top: 1083px;
+      left: 153px;
+    }
+    .all-container37 {
+      height: 100%;
+      align-items: flex-start;
+      margin-left: 50px;
+    }
+  }
+
+  @media(max-width: 767px) {
+    .container2 {
+      flex-direction: column;
+    }
+    .select {
+      width: 70%;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: var(--dl-space-space-doubleunit);
+    }
+    .text24 {
+        width: 80%;
+    }
+    .text25 {
+        color: black;
+        width: 70%;
+    }
+    .landing-page-button{
+        width: 70%;
+    }
+}
+
+
+.width20{
+  width: 20%;
+}
+
+.row-card1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.all-button:hover{
+  background-color: #c3b9fa;
+}
+
+.all-button:active{
+  background-color: var(--dl-color-primary-blue);
+  color: #000000;
+}

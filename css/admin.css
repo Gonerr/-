@@ -1,0 +1,97 @@
+.main-container{
+    margin: 5em 2em 0 2em;
+    height: 100%;
+    display: flex;
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-unit);
+    flex-direction: column;
+    padding-top: var(--dl-space-space-doubleunit);
+    padding-bottom: var(--dl-space-space-doubleunit);
+    justify-content: flex-start;
+    align-items: stretch;
+    min-height: 600px;
+    color: #333;
+    text-align: center;
+    width: 90%;
+
+}
+
+body{
+    background-color: #f5f4f4;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table.styled-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid #000; /* Черная граница таблицы */
+}
+
+table.styled-table thead tr {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+}
+
+table.styled-table th, table.styled-table td {
+    font-size: small;
+    padding: 12px 5px;
+    text-align: center;
+    word-wrap: break-word;
+    border: 1px solid #000; /* Черные границы ячеек */
+    width: 150px; /* Фиксированная ширина столбцов */
+}
+
+table.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+table.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+table.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #333;
+}
+
+table.styled-table tbody tr.active-row {
+    font-weight: 300;
+    color: #333;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: 300;
+}
+
+select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f4f4;
+}
+
+.width30{
+    width: 200px;
+}
+
+#tableForm2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
